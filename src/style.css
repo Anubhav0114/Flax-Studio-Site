@@ -9,7 +9,9 @@
   --page-margin: 24px;
   --default-border-radius: 4px;
   --color-primary: #6F40BD;
-  --color-secondary: #D33396;
+  --color-primary-variant: #D33396;
+  --color-secondary: White;
+  --color-on-secondary: #1B0044;
 }
 
 p{

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Developers from '../components/Developers.vue';
 import HomeLanding from '../components/HomeLanding.vue';
 
 
@@ -7,6 +8,7 @@ import HomeLanding from '../components/HomeLanding.vue';
 <template>
   <div>
     <HomeLanding/>
+    <Developers/>
 
   </div>
 </template>
