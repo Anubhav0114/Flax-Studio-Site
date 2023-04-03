@@ -30,8 +30,8 @@
 <style scoped>
 .developers-container {
     max-width: var(--max-page-width);
-    margin: auto;
-    padding: 40px var(--page-margin);
+    margin: 60px auto;
+    padding: 0 var(--page-margin);
 
 }
 
