@@ -3,6 +3,7 @@ import Developers from '../components/Developers.vue';
 import HomeLanding from '../components/HomeLanding.vue';
 import AppsAndGames from '../components/AppsAndGames.vue';
 import { AppDetail, AppsAndGamesData, ProfileDetail, ProfileData } from '../data-class';
+import Features from '../components/Features.vue';
 
 // ------------------- Data sources ------------------
 
@@ -22,8 +23,8 @@ const upcomingAppsData = new AppsAndGamesData("Upcoming Apps & Games", "Our upco
 const profiles = Array<ProfileDetail>()
 profiles.push(new ProfileDetail('/src/assets/nitesh.png', "#", "Nitesh kr", "Hello, i am an intermediate android developer. I am thanking to work here."))
 profiles.push(new ProfileDetail('/src/assets/nitesh.png', "#", "Nitesh kr", "Hello, i am an intermediate android developer. I am thanking to work here."))
-
 // add more profile here...
+
 const profileData = new ProfileData("Developers", "We are giving thanks to all our developers who have worked together to make such kind of apps and game.", profiles)
 
 
@@ -36,6 +37,7 @@ const profileData = new ProfileData("Developers", "We are giving thanks to all o
     <Developers :data="profileData"/>
     <AppsAndGames :data="releasedAppsData"/>
     <AppsAndGames :data="upcomingAppsData"/>
+    <Features/>
 
   </div>
 </template>

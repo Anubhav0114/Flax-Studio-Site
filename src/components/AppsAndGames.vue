@@ -38,7 +38,7 @@ const props = defineProps({
 
 
 .app-and-game-container>div>h2 {
-    color: var(--color-on-secondary);
+    color: var(--color-primary-variant);
     font-weight: 600;
     font-size: 30px;
     margin: 30px 0;

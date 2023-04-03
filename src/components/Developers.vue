@@ -31,12 +31,11 @@ const props = defineProps({
 }
 
 .developers-container>h2 {
-    color: var(--color-on-secondary);
+    color: var(--color-primary-variant);
     font-weight: 600;
     font-size: 30px;
     margin: 30px 0;
     text-align: center;
-
 }
 
 .developers-container>p {
@@ -74,7 +73,7 @@ const props = defineProps({
     font-weight: 600;
     font-size: 18px;
     text-align: center;
-    color: var(--color-on-secondary);
+    color: var(--color-primary);
 }
 
 .profile-card p{
