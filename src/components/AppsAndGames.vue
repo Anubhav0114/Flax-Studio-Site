@@ -55,7 +55,7 @@ const props = defineProps({
 
 
 .app-cards-container {
-    margin-top: 80px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

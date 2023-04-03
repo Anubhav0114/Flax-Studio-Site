@@ -1,28 +1,23 @@
 <script setup lang='ts'>
+import { ProfileData } from '../data-class';
+
+const props = defineProps({
+    data: ProfileData
+    
+})
 
 </script>
 
 <template>
     <div class="developers-container">
-        <h2>Developers</h2>
-        <p>We are giving thanks to all our developers who have worked together to make such kind of apps and game.</p>
+        <h2>{{ data?.heading }}</h2>
+        <p>{{ data?.description }}</p>
         <div class="cards-container">
-            <div class="profile-card">
-                <img src="../assets/nitesh.png" alt="nitesh profile image">
-                <h3>Nitesh Kr</h3>
-                <p>Hello, i am an intermediate android developer. I am thanking to work here.</p>
+            <div class="profile-card" v-for="(profile, index) in data?.profiles">
+                <img :src="profile.imageUrl" :alt="profile.name">
+                <h3>{{ profile.name }}</h3>
+                <p>{{ profile.about }}</p>
             </div>
-            <div class="profile-card">
-                <img src="../assets/nitesh.png" alt="nitesh profile image">
-                <h3>Nitesh Kr</h3>
-                <p>Hello, i am an intermediate android developer. I am thanking to work here.</p>
-            </div>
-            <div class="profile-card">
-                <img src="../assets/nitesh.png" alt="nitesh profile image">
-                <h3>Nitesh Kr</h3>
-                <p>Hello, i am an intermediate android developer. I am thanking to work here.</p>
-            </div>
-
         </div>
     </div>
 </template>

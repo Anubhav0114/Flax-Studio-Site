@@ -11,10 +11,10 @@ export class AppDetail {
 
 // ----------------------------- For profile -------------------------------
 export class ProfileData{
-    constructor(public heading: string, public description: string, public profiles: Array<AppDetail>){}
+    constructor(public heading: string, public description: string, public profiles: Array<ProfileDetail>){}
 }
 
 export class ProfileDetail{
-    constructor(public imageUrl: string, public pageUrl: string, public title: string, public description: string) { }
+    constructor(public imageUrl: string, public pageUrl: string, public name: string, public about: string) { }
 }
 
