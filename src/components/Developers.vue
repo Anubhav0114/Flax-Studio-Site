@@ -3,7 +3,7 @@ import { ProfileData } from '../data-class';
 
 const props = defineProps({
     data: ProfileData
-    
+
 })
 
 </script>
@@ -14,9 +14,11 @@ const props = defineProps({
         <p>{{ data?.description }}</p>
         <div class="cards-container">
             <div class="profile-card" v-for="(profile, index) in data?.profiles">
-                <img :src="profile.imageUrl" :alt="profile.name">
-                <h3>{{ profile.name }}</h3>
-                <p>{{ profile.about }}</p>
+                <a :href="profile.pageUrl">
+                    <img :src="profile.imageUrl" :alt="profile.name">
+                    <h3>{{ profile.name }}</h3>
+                    <p>{{ profile.about }}</p>
+                </a>
             </div>
         </div>
     </div>
@@ -45,7 +47,7 @@ const props = defineProps({
     text-align: center;
 }
 
-.cards-container{
+.cards-container {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +55,7 @@ const props = defineProps({
     justify-content: center;
 }
 
-.profile-card{
+.profile-card {
     width: 200px;
     height: 300px;
     background-color: white;
@@ -61,7 +63,11 @@ const props = defineProps({
     box-shadow: 0px 4px 26px rgba(115, 64, 188, 0.2);
 }
 
-.profile-card img{
+.profile-card a{
+    text-decoration: none;
+}
+
+.profile-card img {
     display: block;
     width: 100px;
     height: 100px;
@@ -69,14 +75,14 @@ const props = defineProps({
     margin: 20px auto;
 }
 
-.profile-card h3{
+.profile-card h3 {
     font-weight: 600;
     font-size: 18px;
     text-align: center;
     color: var(--color-primary);
 }
 
-.profile-card p{
+.profile-card p {
     text-align: center;
     color: var(--color-on-secondary);
     margin: 8px;
