@@ -26,7 +26,7 @@
                     <a href="#">Visit Playstore</a>
                 </div>
                 <div class="images">
-                    <img src="../assets/phone-image.png" alt="our apps">
+                    <img src="phone-image.png" alt="our apps">
                 </div>
             </div>
         </div>
@@ -130,5 +130,13 @@
     margin-top: 30px;
     height: 300px;
     
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
 }
 </style>
