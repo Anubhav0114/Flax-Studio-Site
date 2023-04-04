@@ -5,6 +5,7 @@
         <div>
             <p>See our app privacy policy</p>
             <a href="./draw-on/privacy">Privacy Policy</a>
+            
         </div>
     </div>
 </template>

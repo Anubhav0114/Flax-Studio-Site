@@ -14,7 +14,8 @@ const props = defineProps({
         <p>{{ data?.description }}</p>
         <div class="cards-container">
             <div class="profile-card" v-for="(profile, index) in data?.profiles">
-                <a :href="profile.pageUrl">
+                <router-link to="/draw-on/privacy">Privacy Policy</router-link> 
+                <a>
                     <img :src="profile.imageUrl" :alt="profile.name">
                     <h3>{{ profile.name }}</h3>
                     <p>{{ profile.about }}</p>
