@@ -8,9 +8,8 @@
             <div class="header">
                 <h2><a href="#">Flax Studio</a></h2>
                 <div>
-                    <a href="#">Home</a>
-                    <a href="#">Features</a>
-                    <a href="#">About</a>
+
+                    <a href="#" class="hide-responsive">About</a>
                     <a href="#">Privacy</a>
                     <a href="#">Join</a>
                 </div>
@@ -56,8 +55,9 @@
 }
 
 .header h2 {
-    font-size: x-large;
+    font-size: 24px;
     margin-left: var(--page-margin);
+    font-weight: 600;
 }
 
 .header a {
@@ -103,6 +103,7 @@
     margin: 24px 0;
 }
 
+
 .content a {
     display: inline-block;
     margin-top: 30px;
@@ -129,14 +130,38 @@
     margin: auto;
     margin-top: 30px;
     height: 300px;
-    
+
 }
 
 
 
-@media only screen and (max-width: 800px) {
-  body {
-    background-color: lightblue;
-  }
+@media only screen and (max-width: 700px) {
+    .content {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .header h2 {
+        font-size: 22px;
+        margin-left: var(--page-margin);
+        font-weight: 600;
+    }
+
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .content img {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .hide-responsive{
+        display: none;
+    }
 }
 </style>
