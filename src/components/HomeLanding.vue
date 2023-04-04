@@ -26,7 +26,7 @@
                     <a href="#">Visit Playstore</a>
                 </div>
                 <div class="images">
-                    <img src="phone-image.png" alt="our apps">
+                    <img src="../../public/phone-image.png" alt="our apps">
                 </div>
             </div>
         </div>
