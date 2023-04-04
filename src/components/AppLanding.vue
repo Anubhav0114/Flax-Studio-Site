@@ -8,10 +8,9 @@
             <div class="header">
                 <h2><a href="#">Flax Studio</a></h2>
                 <div>
-
-                    <a href="#" class="hide-responsive">About</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Join</a>
+                    <a href="#">Home</a>
+                    <a href="#" class="hide-responsive">Features</a>
+                    <a href="#" class="hide-responsive">Privacy</a>
                 </div>
             </div>
         </div>
@@ -19,10 +18,17 @@
         <div class="content-parent">
             <div class="content">
                 <div class="detail">
-                    <h1>We love make things amazing and simple</h1>
-                    <p>We are try to creating stuffs for making things easier and simpler to use. Our most of the app is
-                        open source. </p>
-                    <a href="#">Visit Playstore</a>
+                    <h1>Draw On</h1>
+                    <p>A simple & easy drawing app to show your creativity.</p>
+                    <p>
+                        Draw On is a versatile drawing app that lets you
+                        create stunning illustrations and designs with ease.
+                        With its intuitive interface and powerful tools,
+                        you can draw rectangles, lines, circles, curves,
+                        and more with just a few taps and swipes.
+                    </p>
+
+                    <a href="#">Get from Playstore</a>
                 </div>
                 <div class="images">
                     <img src="/phone-image.png" alt="our apps">
@@ -159,8 +165,8 @@
 
 }
 
-@media only screen and (max-width: 400px){
-    .hide-responsive{
+@media only screen and (max-width: 400px) {
+    .hide-responsive {
         display: none;
     }
 }

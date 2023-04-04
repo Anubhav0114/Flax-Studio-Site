@@ -1,9 +1,7 @@
 <script setup lang='ts'>
-import AppLanding from '../components/AppLanding.vue';
-
 </script>
 <template>
-    <AppLanding/>
+<h1>404</h1>
 </template>
 <style scoped>
 </style>

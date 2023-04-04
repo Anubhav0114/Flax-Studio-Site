@@ -1,5 +1,15 @@
 import { createApp } from 'vue'
 import './style.css'
-import Home from './pages/Home.vue'
+import Main from './Main.vue'
+import { routes } from './routes'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
-createApp(Home).mount('#app')
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes
+})
+
+const app = createApp(Main).use(router).mount("#app")
+
+
+
