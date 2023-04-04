@@ -15,14 +15,15 @@ allApps.push(new AppDetail('word-search.png', "word-search", "Word Search", "A s
 const releasedAppsData = new AppsAndGamesData("Our Apps & Games", "See our apps and games which is available on Play store", allApps)
 
 const upcomingApps = Array<AppDetail>()
-upcomingApps.push(new AppDetail('draw-on.png', "#", "Music On", "A Simple music app for managing and playing your audio files."))
+upcomingApps.push(new AppDetail('draw-on.png', "music-on", "Music On", "A Simple music app for managing and playing your audio files."))
 // add more apps here...
 
 const upcomingAppsData = new AppsAndGamesData("Upcoming Apps & Games", "Our upcoming Apps & Games will be coming soon", upcomingApps)
 
 const profiles = Array<ProfileDetail>()
-profiles.push(new ProfileDetail('nitesh.png', "#", "Nitesh kr", "Hello, i am an intermediate android developer. I am thanking to work here."))
-profiles.push(new ProfileDetail('nitesh.png', "#", "Nitesh kr", "Hello, i am an intermediate android developer. I am thanking to work here."))
+profiles.push(new ProfileDetail('nitesh.png', "profile-nitesh", "Nitesh kr", "Hello, i am an intermediate android developer. I am thanking to work here."))
+profiles.push(new ProfileDetail('nitesh.png', "profile-sayam", "Sayam kr", "Hello, i am an intermediate android developer. I am thanking to work here."))
+profiles.push(new ProfileDetail('nitesh.png', "profile-anubhab", "Anubhab kr", "Hello, i am an intermediate android developer. I am thanking to work here."))
 // add more profile here...
 
 const profileData = new ProfileData("Developers", "We are giving thanks to all our developers who have worked together to make such kind of apps and game.", profiles)
