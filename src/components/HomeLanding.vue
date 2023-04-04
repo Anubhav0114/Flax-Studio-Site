@@ -22,7 +22,7 @@
                     <h1>We love make things amazing and simple</h1>
                     <p>We are try to creating stuffs for making things easier and simpler to use. Our most of the app is
                         open source. </p>
-                    <a href="#">Visit Playstore</a>
+                    <a target="_blank" href="https://play.google.com/store/apps/dev?id=7957006414559129964">Visit Playstore</a>
                 </div>
                 <div class="images">
                     <img src="/phone-image.png" alt="our apps">

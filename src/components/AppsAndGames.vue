@@ -3,7 +3,7 @@ import { AppsAndGamesData } from '../data-class';
 
 const props = defineProps({
     data: AppsAndGamesData
-    
+
 })
 
 </script>
@@ -12,15 +12,15 @@ const props = defineProps({
         <div>
             <h2>{{ props.data?.heading }}</h2>
             <p>{{ props.data?.description }}</p>
+
             <div class="app-cards-container">
-                <div class="card" v-for="(appDetail, index) in props.data?.apps">
-                    <a :href="appDetail.pageUrl">
+                <a :href="appDetail.pageUrl" v-for="(appDetail, index) in props.data?.apps">
+                    <div class="card">
                         <img :src="appDetail.imageUrl" :alt="appDetail.title">
                         <h3>{{ appDetail.title }}</h3>
                         <p>{{ appDetail.description }}</p>
-                    </a>
-                </div>
-                
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -63,8 +63,7 @@ const props = defineProps({
 }
 
 .app-cards-container .card {
-    width: 180px;
-    height: 320px;
+    width: 200px;
     background-color: white;
     box-shadow: 0px 4px 26px rgba(115, 64, 188, 0.2);
     border-radius: 6px;
@@ -72,12 +71,14 @@ const props = defineProps({
 
 .app-cards-container a {
     text-decoration: none;
+    display: inline-flex;
 }
 
 .app-cards-container img {
     display: block;
-    width: 120px;
-    height: 120px;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
     margin: 30px auto 20px auto;
 }
 
@@ -93,6 +94,7 @@ const props = defineProps({
     text-align: center;
     color: var(--color-on-secondary);
     margin: 8px 10px;
+    margin-bottom: 16px;
     font-size: 16px;
 }
 </style>
