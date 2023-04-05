@@ -1,10 +1,9 @@
 <script setup lang='ts'>
-import { AppsAndGamesData } from '../data-class';
+import { AppsAndGamesData } from '../DataType'
 
-const props = defineProps({
+const props = defineProps<{
     data: AppsAndGamesData
-
-})
+}>()
 
 </script>
 <template>

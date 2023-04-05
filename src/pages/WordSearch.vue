@@ -4,15 +4,15 @@ import AppLanding from '../components/AppLanding.vue';
 import AppFeatures from '../components/AppFeatures.vue';
 import AppsAndGames from '../components/AppsAndGames.vue';
 import AppPrivacyCard from '../components/AppPrivacyCard.vue';
-import { AppDetail, AppsAndGamesData, FeaturesData } from '../data-class';
+import { AppDetail, AppsAndGamesData, FeaturesData } from '../DataType'
 
 
 const allApps = Array<AppDetail>()
-allApps.push(new AppDetail('../draw-on.png', "../draw-on", "Draw On", "A simple drawing app to draw your needs. It will help in showing your art."))
-allApps.push(new AppDetail('../word-search.png', "../word-search", "Word Search", "A simple word search game in which you have to find the words before you ran out of time."))
+allApps.push({imageUrl:'../draw-on.png', pageUrl:"../draw-on", title:"Draw On", description:"A simple drawing app to draw your needs. It will help in showing your art."})
+allApps.push({imageUrl:'../word-search.png', pageUrl:"../word-search", title:"Word Search", description:"A simple word search game in which you have to find the words before you ran out of time."})
 // add more apps here...
 
-const releasedAppsData = new AppsAndGamesData("Our Apps & Games", "See our apps and games which is available on Play store", allApps)
+const releasedAppsData: AppsAndGamesData = {heading:"Our Apps & Games", description:"See our apps and games which is available on Play store", apps:allApps}
 
 const bigPara = "Looking for a fun and challenging word search puzzle game? Look no further than our app!. With infinite levels to play, you'll never run out of new and exciting challenges to tackle. Simply swipe your finger across the grid of letters to form words and earn points. But watch out - the clock is ticking! Race against time to find as many words as you can before the clock runs out."
 
@@ -32,12 +32,12 @@ const bigPara = "Looking for a fun and challenging word search puzzle game? Look
         'Overall, our word search puzzle game is a fun, addictive, and customizable way to test and improve your word search skills. Whether you\'re looking for a quick and easy distraction or a more challenging mental workout, our app has something for everyone.'
     ]" />
     <AppFeatures :details="[
-        new FeaturesData('Infinite Levels', 'Infinite levels of challenging word search puzzles'),
-        new FeaturesData('Adjustable', 'We can easily adjust difficulty levels'),
-        new FeaturesData('Simple & Easy', 'This game will gives a simple & easy-to-use interface'),
-        new FeaturesData('Fun & Addictive', 'The game ensure that to provide fun and addictive gameplay'),
-        new FeaturesData('50+ Categories', '50+ different word categories to play'),
-        new FeaturesData('No Ads', 'This game will not show you ads between games')
+        {heading:'Infinite Levels', description:'Infinite levels of challenging word search puzzles'},
+        {heading:'Adjustable', description:'We can easily adjust difficulty levels'},
+        {heading:'Simple & Easy', description:'This game will gives a simple & easy-to-use interface'},
+        {heading:'Fun & Addictive', description:'The game ensure that to provide fun and addictive gameplay'},
+        {heading:'50+ Categories', description:'50+ different word categories to play'},
+        {heading:'No Ads', description:'This game will not show you ads between games'}
     ]"
         :ending="'Download our game today and start sharpening your word search skills!'" />
 

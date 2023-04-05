@@ -6,12 +6,11 @@
     <div class="landing-top">
         <div class="header-parent">
             <div class="header">
-                <h2><a href="#">Flax Studio</a></h2>
+                <h2><a>Flax Studio</a></h2>
                 <div>
 
-                    <a href="#" class="hide-responsive">About</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Join</a>
+                    <a href="./about" class="hide-responsive">About</a>
+                    <a href="./join">Join</a>
                 </div>
             </div>
         </div>

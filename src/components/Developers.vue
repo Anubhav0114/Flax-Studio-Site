@@ -1,10 +1,9 @@
 <script setup lang='ts'>
-import { ProfileData } from '../data-class';
+import { ProfileData } from '../DataType'
 
-const props = defineProps({
+const props = defineProps<{
     data: ProfileData
-
-})
+}>()
 
 </script>
 
@@ -63,7 +62,7 @@ const props = defineProps({
     box-shadow: 0px 4px 26px rgba(115, 64, 188, 0.2);
 }
 
-.profile-card a{
+.profile-card a {
     text-decoration: none;
 }
 

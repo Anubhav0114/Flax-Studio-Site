@@ -43,7 +43,9 @@ router.addRoute({
 
 
 
-router.addRoute({ path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundVue })
+router.addRoute({ path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFoundVue, meta:{
+  title: "404 - Not Found"
+} })
 
 const app = createApp(Main).use(router).mount("#app")
 
