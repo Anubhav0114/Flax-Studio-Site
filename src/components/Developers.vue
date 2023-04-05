@@ -13,7 +13,7 @@ const props = defineProps({
         <h2>{{ data?.heading }}</h2>
         <p>{{ data?.description }}</p>
         <div class="cards-container">
-            <div class="profile-card" v-for="(profile, index) in data?.profiles">
+            <div class="profile-card reveal" v-for="(profile, index) in data?.profiles">
                 <a :href="profile.pageUrl">
                     <img :src="profile.imageUrl" :alt="profile.name">
                     <h3>{{ profile.name }}</h3>

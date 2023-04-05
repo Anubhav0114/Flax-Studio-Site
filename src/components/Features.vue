@@ -4,22 +4,22 @@
     <div class="features-container">
         <h2>Some of the best features of our Apps</h2>
         <div class="features">
-            <div class="card">
+            <div class="card reveal">
                 <h3>Simple & Easy</h3>
                 <p>We are try to creating stuffs for making things easier and simpler to use. Our most of the app is open
                     source. </p>
             </div>
-            <div class="card">
+            <div class="card reveal">
                 <h3>High Performance</h3>
                 <p>We are try to creating stuffs for making things easier and simpler to use. Our most of the app is open
                     source. </p>
             </div>
-            <div class="card">
+            <div class="card reveal">
                 <h3>Supports</h3>
                 <p>We are try to creating stuffs for making things easier and simpler to use. Our most of the app is open
                     source. </p>
             </div>
-            <div class="card">
+            <div class="card reveal">
                 <h3>Customization</h3>
                 <p>We are try to creating stuffs for making things easier and simpler to use. Our most of the app is open
                     source. </p>

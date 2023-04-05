@@ -15,7 +15,7 @@ const props = defineProps({
 
             <div class="app-cards-container">
                 <a :href="appDetail.pageUrl" v-for="(appDetail, index) in props.data?.apps">
-                    <div class="card">
+                    <div class="card reveal">
                         <img :src="appDetail.imageUrl" :alt="appDetail.title">
                         <h3>{{ appDetail.title }}</h3>
                         <p>{{ appDetail.description }}</p>
