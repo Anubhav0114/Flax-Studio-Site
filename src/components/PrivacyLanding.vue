@@ -1,12 +1,18 @@
 <script setup lang="ts">
-
+const props = defineProps({
+    appName: String,
+    smallPara: String,
+    bigPara: String,
+    appLink: String,
+    appPageLink: String
+})
 </script>
 
 <template>
     <div class="landing-top">
         <div class="header-parent">
             <div class="header">
-                <h2><a href="#">Flax Studio</a></h2>
+                <h2><a href="/">Flax Studio</a></h2>
                 <div></div>
             </div>
         </div>
@@ -14,17 +20,11 @@
         <div class="content-parent">
             <div class="content">
                 <div class="detail">
-                    <h1>Draw On</h1>
-                    <p>A simple & easy drawing app to show your creativity.</p>
-                    <p>
-                        Draw On is a versatile drawing app that lets you
-                        create stunning illustrations and designs with ease.
-                        With its intuitive interface and powerful tools,
-                        you can draw rectangles, lines, circles, curves,
-                        and more with just a few taps and swipes.
-                    </p>
+                    <h1>{{ appName }}</h1>
+                    <p>{{ smallPara }}</p>
+                    <p>{{ bigPara }}</p>
 
-                    <a href="#">Get from Playstore</a> <a href="#">View App</a>
+                    <a :href="appLink" target="_blank">Get from Playstore</a> <a :href="appPageLink">View App</a>
                 </div>
                 <div></div>
             </div>

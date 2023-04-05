@@ -18,3 +18,7 @@ export class ProfileDetail{
     constructor(public imageUrl: string, public pageUrl: string, public name: string, public about: string) { }
 }
 
+
+export class FeaturesData{
+    constructor(public heading: string, public description: string){}
+}

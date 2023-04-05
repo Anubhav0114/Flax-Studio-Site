@@ -3,7 +3,12 @@ import PrivacyLanding from '../components/PrivacyLanding.vue';
 
 </script>
 <template>
-    <PrivacyLanding />
+    <PrivacyLanding 
+    :app-name="'Draw On'" 
+    :small-para="'A simple & easy drawing app to show your creativity.'"
+    :big-para="'Draw On is a versatile drawing app that lets you create stunning illustrations and designs with ease. With its intuitive interface and powerful tools, you can draw rectangles, lines, circles, curves, and more with just a few taps and swipes.'"
+    :app-link="'https://play.google.com/store/apps/details?id=com.flaxstudio.drawon'"
+    :app-page-link="'/draw-on'"/>
     <div class="privacy-content">
         <h2>Draw On - Privacy Policy</h2>
         <p>Flax studio built the Draw On app as a Free app. This SERVICE is provided by Flax studio at no cost and is
@@ -52,21 +57,27 @@ import PrivacyLanding from '../components/PrivacyLanding.vue';
             We want to inform users of this Service that these third parties have access to their Personal Information. The
             reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or
             use the information for any other purpose.</p>
+
+
         <h3>Security</h3>
         <p>
             We value your trust in providing us your Personal Information, thus we are striving to use commercially
             acceptable means of protecting it. But remember that no method of transmission over the internet, or method of
             electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</p>
 
+
         <h3>Links to Other Sites</h3>
         <p>This Service may contain links to other sites. If you click on a third-party link, you will be directed to that
             site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the
             Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy
             policies, or practices of any third-party sites or services.</p>
+
+
         <h3>Changes to This Privacy Policy</h3>
         <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for
             any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
         <p>This policy is effective as of <i>2025-01-27</i></p>
+
         <h3>Contact Us</h3>
         <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at
             <b>flaxstudiohelp@gmail.com</b>.
@@ -74,21 +85,21 @@ import PrivacyLanding from '../components/PrivacyLanding.vue';
     </div>
 </template>
 <style scoped>
-.privacy-content{
+.privacy-content {
     max-width: var(--max-page-width);
     margin: auto;
     padding: 40px var(--page-margin);
     margin-bottom: 100px;
 }
 
-.privacy-content h2{
+.privacy-content h2 {
     color: var(--color-primary-variant);
     font-weight: 600;
     font-size: 30px;
     margin: 30px 0;
 }
 
-.privacy-content h3{
+.privacy-content h3 {
     color: var(--color-primary-variant);
     font-weight: 600;
     font-size: 22px;
@@ -96,20 +107,22 @@ import PrivacyLanding from '../components/PrivacyLanding.vue';
     margin-top: 60px;
 }
 
-.privacy-content p{
+.privacy-content p {
     color: var(--color-on-secondary);
     margin: 20px auto;
 }
 
-.privacy-content b{
+.privacy-content b {
     font-weight: 600;
 }
 
 .privacy-content li {
     color: var(--color-on-secondary);
     margin-bottom: 8px;
+    font-weight: 600;
 }
-.privacy-content li a{
+
+.privacy-content li a {
     color: var(--color-primary);
     font-weight: 600;
 }

@@ -1,16 +1,26 @@
 <script setup lang="ts">
 
+const props = defineProps({
+    appName: String,
+    smallPara: String,
+    bigPara: String,
+    appLink: String,
+    appImagesLink: String,
+    privacyLink: String
+
+})
+
 </script>
 
 <template>
     <div class="landing-top">
         <div class="header-parent">
             <div class="header">
-                <h2><a href="#">Flax Studio</a></h2>
+                <h2><a href="./">Flax Studio</a></h2>
                 <div>
-                    <a href="#">Home</a>
-                    <a href="#" class="hide-responsive">Features</a>
-                    <a href="#" class="hide-responsive">Privacy</a>
+                    <a href="./">Home</a>
+                    <a href="#features" class="hide-responsive">Features</a>
+                    <a :href="privacyLink" class="hide-responsive">Privacy</a>
                 </div>
             </div>
         </div>
@@ -18,20 +28,14 @@
         <div class="content-parent">
             <div class="content">
                 <div class="detail">
-                    <h1>Draw On</h1>
-                    <p>A simple & easy drawing app to show your creativity.</p>
-                    <p>
-                        Draw On is a versatile drawing app that lets you
-                        create stunning illustrations and designs with ease.
-                        With its intuitive interface and powerful tools,
-                        you can draw rectangles, lines, circles, curves,
-                        and more with just a few taps and swipes.
-                    </p>
+                    <h1>{{ appName }}</h1>
+                    <p>{{ smallPara }}</p>
+                    <p>{{ bigPara }}</p>
 
-                    <a href="#">Get from Playstore</a>
+                    <a :href="appLink">Get from Playstore</a>
                 </div>
                 <div class="images">
-                    <img src="/phone-image.png" alt="our apps">
+                    <img :src="appImagesLink" alt="our apps">
                 </div>
             </div>
         </div>

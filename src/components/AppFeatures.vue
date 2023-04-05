@@ -1,49 +1,27 @@
 <script setup lang='ts'>
+import { FeaturesData } from '../data-class';
+
+const props = defineProps({
+    details: {
+        type: Array<FeaturesData>,
+        default: () => [],
+        required: true
+    },
+
+    ending: String
+})
 </script>
 <template>
     <div class="features-container">
-        <h2>App Features</h2>
+        <h2 id="features">App Features</h2>
         <div class="features">
-            <div class="card reveal">
-                <h3>Drawing Tools</h3>
-                <p>The app should offer a variety of drawing tools such as a pen, pencil, brush, eraser, and more. Users
-                    should be able to easily switch between tools and customize the thickness and color of each. </p>
-            </div>
-            <div class="card reveal">
-                <h3>Shapes</h3>
-                <p> The app should allow users to draw different shapes like rectangles, circles, and triangles, as well as
-                    free-form shapes like curves and lines. Users should be able to easily adjust the size and position of
-                    these shapes. </p>
-            </div>
-            <div class="card reveal">
-                <h3>Export and Import</h3>
-                <p>The app should allow users to export their drawings in different formats like PNG, JPG, or SVG, and share
-                    them via email, social media, or other apps. It should also allow users to import images or photos to
-                    use as a reference or as a part of their drawing. </p>
-            </div>
-            <div class="card reveal">
-                <h3>Undo and Redo</h3>
-                <p>The app should offer the ability to undo and redo actions, giving users the freedom to experiment and
-                    make changes without fear of losing their work.
-                </p>
-            </div>
-
-            <div class="card reveal">
-                <h3>Save and Favorites</h3>
-                <p>The app should allow users to save their drawings and create a favorite list for easy access.
-                </p>
-            </div>
-
-            <div class="card reveal">
-                <h3>User-friendly Interface</h3>
-                <p>The app should have a user-friendly interface, with easy-to-use tools and clear instructions to help
-                    users get started quickly and efficiently. It should also be optimized for different screen sizes and
-                    orientations.
-                </p>
+            <div class="card reveal" v-for="(feature) in details">
+                <h3>{{ feature.heading }}</h3>
+                <p>{{ feature.description }}</p>
             </div>
         </div>
 
-        <p>By incorporating these features, your Draw On app can provide users with a powerful and enjoyable drawing experience.</p>
+        <p>{{ ending }}</p>
     </div>
 </template>
 <style scoped>

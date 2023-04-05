@@ -1,18 +1,51 @@
 <script setup lang='ts'>
+
+const props = defineProps({
+    appParagraphs: {
+        type: Array<String>,
+        default: () => [],
+        required: true
+    },
+})
+
+function marked(text: String) {
+    var markedText = ""
+    var catchText = ""
+    var index = 0
+    var isCatching = false
+    while (index < text.length) {
+
+        if (text[index] == "*" && text[index + 1] == "*") {
+            isCatching = !isCatching
+            index += 2
+            continue
+        }
+
+        if (isCatching) {
+            catchText += text[index]
+        } else {
+            if (catchText.length != 0) {
+                markedText += "<b>" + catchText + "</b>"
+                catchText = ""
+            }
+            markedText += text[index]
+        }
+
+        index++
+    }
+
+    if (catchText.length != 0) {
+        markedText += "<b>" + catchText + "</b>"
+    }
+
+    return markedText
+}
+
 </script>
 <template>
     <div class="about-container">
         <h2>About App</h2>
-        <p><b>Draw On</b> is a versatile drawing app that lets you create stunning illustrations and designs with ease. With its
-            intuitive interface and powerful tools, you can draw <b>rectangles, lines, circles, curves</b>, and more with just a
-            few taps and swipes.</p>
-
-        <p>Whether you're a <b>professional artist</b>, a <b>hobbyist</b>, or a <b>student</b>, Draw On has everything you need to unleash your
-            creativity. You can choose from a wide range of <b>colors, brush sizes</b>, and textures to bring your ideas to life.
-            You can also <b>save</b> your drawings and create a favorite list for easy access.</p>
-
-        <p>With its simple yet powerful features, Draw On is perfect for anyone who loves to draw, doodle, or sketch on the
-            go. So why wait? Download Draw On today and <b>start creating beautiful art!</b></p>
+        <p v-for="(text) in appParagraphs" v-html="marked(text)"></p>
     </div>
 </template>
 <style scoped>
@@ -31,13 +64,12 @@
     margin: 30px 0;
 }
 
-.about-container p{
+.about-container p {
     color: var(--color-on-secondary);
     margin: 24px 0;
 }
 
-.about-container p b{
+.about-container p b {
     font-weight: 600;
 }
-
 </style>

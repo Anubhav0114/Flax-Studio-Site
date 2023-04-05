@@ -3,7 +3,9 @@ import './style.css'
 import Main from './Main.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import DrawOnVue from "./pages/DrawOn.vue";
+import WordSearchVue from "./pages/WordSearch.vue";
 import DrawOnPrivacyVue from "./pages/DrawOnPrivacy.vue";
+import WordSearchPrivacyVue from "./pages/WordSearchPrivacy.vue";
 import HomeVue from "./pages/Home.vue";
 import NotFoundVue from "./pages/NotFound.vue";
 
@@ -25,6 +27,17 @@ router.addRoute({
 router.addRoute({
   path: "/draw-on/privacy", component: DrawOnPrivacyVue, meta: {
     title: "Draw on - Privacy"
+  }
+})
+
+router.addRoute({
+  path: "/word-search", component: WordSearchVue, meta: {
+    title: "Word Search"
+  }
+})
+router.addRoute({
+  path: "/word-search/privacy", component: WordSearchPrivacyVue, meta: {
+    title: "Word Search - Privacy"
   }
 })
 

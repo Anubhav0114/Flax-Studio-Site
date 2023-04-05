@@ -1,10 +1,13 @@
 <script setup lang='ts'>
+const props = defineProps({
+    privacyLink: String
+})
 </script>
 <template>
     <div class="app-privacy">
         <div>
             <p>See our app privacy policy</p>
-            <a href="./draw-on/privacy">Privacy Policy</a>
+            <a :href="privacyLink">Privacy Policy</a>
             
         </div>
     </div>
