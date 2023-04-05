@@ -18,7 +18,7 @@ router.addRoute({ path: "/", name: "root", component: HomeVue, meta:{
 router.addRoute({ path: "/draw-on", name: "draw-on", component: DrawOnVue, meta:{
   title: "Draw On"
 }})
-router.addRoute("draw-on", { path: "privacy", component: DrawOnPrivacyVue, meta:{
+router.addRoute({ path: "/draw-on/privacy", component: DrawOnPrivacyVue, meta:{
   title: "Draw on - Privacy"
 }})
 
