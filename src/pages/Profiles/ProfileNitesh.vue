@@ -16,7 +16,7 @@
         <div class="profile-parent">
             <div class="profile-bio">
                 <div class="left">
-                    <img src="nitish.png" alt="nitesh">
+                    <img src="../../assets/no_image.png" alt="nitesh">
                     <div>
                         <h2>Nitesh Kumar</h2>
                         <p class="info">Full stack web developer</p>
@@ -93,24 +93,24 @@
                 </div>
 
                 
-                <div class="members">
+               <div class="members">
                     <h3>Members</h3>
                     <div>
-                        <img src="sayam.jpg" alt="sayam">
+                        <img src="../../assets/no_image.png" alt="sayam">
                         <div>
                             <h4>Sayam Sn.</h4>
                             <p>Android developer</p>
                         </div>
                     </div>
                     <div>
-                        <img src="nitesh.png" alt="no image">
+                        <img src="../../assets/no_image.png" alt="no image">
                         <div>
                             <h4>Nitesh kr</h4>
                             <p>Android developer</p>
                         </div>
                     </div>
                     <div>
-                        <img src="anubhav.png" alt="anubhav">
+                        <img src="../../assets/no_image.png" alt="anubhav">
                         <div>
                             <h4>Anubhav Jn</h4>
                             <p>Android developer</p>
