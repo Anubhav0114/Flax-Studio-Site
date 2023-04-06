@@ -38,8 +38,8 @@
                         <p>India, Bihar</p>
                     </div>
                     <div class="info">
-                        <p>Years experience:</p>
-                        <p>2</p>
+                        <p>Experience:</p>
+                        <p>2 years</p>
                     </div>
                     <div class="profile-icons">
                         <a href="#"><img src="../../assets/github.svg" alt="github"></a>
