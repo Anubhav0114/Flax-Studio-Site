@@ -21,9 +21,9 @@ upcomingApps.push({imageUrl:'draw-on.png', pageUrl:"music-on", title:"Music On",
 const upcomingAppsData: AppsAndGamesData = {heading:"Upcoming Apps & Games", description:"Our upcoming Apps & Games will be coming soon", apps:upcomingApps}
 
 const profiles = Array<ProfileDetail>()
-profiles.push({imageUrl:'sayam.jpg', pageUrl:"profile-sayam", name:"Sayam Sn", about:" A self-taught Android developer with a passion for building mobile applications.Aspiring to become an a self based brand."})
+profiles.push({imageUrl:'sayam.jpg', pageUrl:"profile-sayam", name:"Sayam Sr", about:" A self-taught Android developer with a passion for building mobile applications.Aspiring to become an a self based brand."})
 profiles.push({imageUrl:'nitesh.png', pageUrl:"profile-nitesh", name:"Nitesh kr", about:"Hello, i am an intermediate android developer. I am thanking to work here."})
-profiles.push({imageUrl:'anubhav.png', pageUrl:"profile-anubhab", name:"Anubhav Jr", about:"A self-taught Android developer with a passion for building mobile applications.Aspiring to become an Engineer."})
+profiles.push({imageUrl:'anubhav.png', pageUrl:"profile-anubhav", name:"Anubhav Jr", about:"A self-taught Android developer with a passion for building mobile applications.Aspiring to become an Engineer."})
 // add more profile here...
 
 const profileData: ProfileData = {heading:"Developers", description:"We are giving thanks to all our developers who have worked together to make such kind of apps and game.", profiles:profiles}
