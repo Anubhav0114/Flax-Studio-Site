@@ -56,20 +56,32 @@
             <div class="profile-detail">
                 <div class="profile-about">
                     <h2>About</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged.
+                    <p>My name is Sayam and I am an intermediate Android and web developer. My journey into the world of
+                        technology started at a young age, when I received my first computer as a gift from my parents. I
+                        was fascinated by the endless possibilities that technology could offer and knew that I wanted to
+                        pursue a career in this field.
+                        As a child, I spent countless hours tinkering with my computer, learning how to code and developing
+                        my own websites. This passion only grew stronger as I got older and I decided to pursue a degree in
+                        computer science. During my time in college, I honed my skills in programming and began to
+                        specialise in mobile app development.
                     </p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged.
+                    <p>After completing my degree, I landed my first job as an Android developer at a startup. It was an
+                        exciting opportunity for me, as I was able to work on cutting-edge technology and collaborate with
+                        some of the brightest minds in the industry. Over time, I became an integral part of the team and
+                        was tasked with leading the development of several high-profile apps.
+                        As my career progressed, I began to explore web development and soon found myself equally passionate
+                        about building websites and web applications. I decided to expand my skillset by taking courses in
+                        web development and started working on my own personal projects in my spare time.
+
                     </p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged.
+                    <p>
+                        Today, I am a well-rounded developer with experience in both mobile and web development. I am
+                        constantly striving to improve my skills and stay up-to-date with the latest technologies and trends
+                        in the industry. I take pride in my work and always strive to deliver the best possible results for
+                        my clients and users.
+                        Looking back on my journey so far, I am grateful for the opportunities that I have had and the
+                        people who have supported me along the way. I am excited to see where my career takes me next and am
+                        confident that I have the skills and drive to achieve great things in the world of technology.
                     </p>
 
                     <hr>
@@ -345,19 +357,19 @@ header {
         grid-template-columns: 100%;
     }
 
-    .profile-bio .left img{
+    .profile-bio .left img {
         margin: auto;
     }
 
-    .profile-bio .left *{
+    .profile-bio .left * {
         text-align: center;
     }
 
-    .profile-bio .right .info p:first-child{
+    .profile-bio .right .info p:first-child {
         text-align: right;
     }
 
-    .profile-bio .right .info{
+    .profile-bio .right .info {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -366,7 +378,7 @@ header {
         gap: 24px;
     }
 
-    .profile-icons{
+    .profile-icons {
         justify-content: center;
     }
 
@@ -392,5 +404,4 @@ header {
     .hide-responsive {
         display: none;
     }
-}
-</style>
+}</style>
