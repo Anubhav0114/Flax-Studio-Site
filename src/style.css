@@ -11,14 +11,13 @@
   --color-primary: #6F40BD;
   --color-primary-variant: #D33396;
   --color-secondary: White;
-  --color-on-secondary: #210053;
+  --color-on-secondary: #210053b6;
   --surface-color: #F5F5F5;
 }
 
 p {
   font-size: 18px;
   line-height: 1.6;
-  color: var(--color-on-secondary);
 }
 
 .reveal{

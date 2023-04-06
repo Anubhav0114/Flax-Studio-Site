@@ -126,6 +126,7 @@
 <style scoped>
 .profile-container {
     background-color: var(--surface-color);
+    color: var(--color-on-secondary);
 }
 
 header {
@@ -186,6 +187,7 @@ header {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 350px;
+    color: var(--color-on-secondary);
 }
 
 .profile-bio .left {
@@ -264,6 +266,7 @@ header {
 
 .profile-about p {
     margin: 24px 0;
+    color: var(--color-on-secondary);
 }
 
 .profile-about h2 {
