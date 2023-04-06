@@ -67,6 +67,7 @@ const props = defineProps<{
 }
 
 .profile-card img {
+    object-fit: cover;
     display: block;
     width: 100px;
     height: 100px;
