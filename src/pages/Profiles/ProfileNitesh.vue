@@ -16,7 +16,7 @@
         <div class="profile-parent">
             <div class="profile-bio">
                 <div class="left">
-                    <img src="nitesh.png" alt="nitesh">
+                    <img src="../../assets/no_image.png" alt="nitesh">
                     <div>
                         <h2>Nitesh Kumar</h2>
                         <p class="info">Full stack web developer</p>
