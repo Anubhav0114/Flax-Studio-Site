@@ -42,11 +42,11 @@
                         <p>6 months</p>
                     </div>
                     <div class="profile-icons">
-                        <a href="#"><img src="../../assets/github.svg" alt="github"></a>
-                        <a href="#"><img src="../../assets/twitter.svg" alt="twitter"></a>
-                        <a href="#"><img src="../../assets/instagram.svg" alt="instagram"></a>
-                        <a href="#"><img src="../../assets/linkedin.svg" alt="linkedin"></a>
-                        <a href="#"><img src="../../assets/facebook.svg" alt="facebook"></a>
+                        <a href="https://github.com/Anubhav0114"><img src="../../assets/github.svg" alt="github"></a>
+                        <a href="https://twitter.com/KabirPathak14"><img src="../../assets/twitter.svg" alt="twitter"></a>
+                        <a href="https://www.instagram.com/kabir_0.1.2.7/"><img src="../../assets/instagram.svg" alt="instagram"></a>
+                        <a href="https://www.linkedin.com/in/anubhav-pathak-a945721a9/"><img src="../../assets/linkedin.svg" alt="linkedin"></a>
+                        <a href="https://www.facebook.com/kabir.pathak.794/"><img src="../../assets/facebook.svg" alt="facebook"></a>
                     </div>
                 </div>
             </div>
