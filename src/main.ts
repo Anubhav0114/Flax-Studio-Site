@@ -10,6 +10,7 @@ import HomeVue from "./pages/Home.vue";
 import NotFoundVue from "./pages/NotFound.vue";
 import ProfileNiteshVue from "./pages/Profiles/ProfileNitesh.vue";
 import ProfileSayam from './pages/Profiles/ProfileSayam.vue';
+import ProfileAnubhavVue from "./pages/Profiles/ProfileAnubhav.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -50,9 +51,17 @@ router.addRoute({
 })
 router.addRoute({
   path: "/profile-sayam", component: ProfileSayam, meta: {
-    title: "Profile - Sayam Sn."
+    title: "Profile - Sayam Sr."
   }
 })
+
+router.addRoute({
+  path: "/profile-anubhav", component: ProfileAnubhavVue, meta: {
+    title: "Profile - Anubhav Jr."
+  }
+})
+
+
 
 
 
