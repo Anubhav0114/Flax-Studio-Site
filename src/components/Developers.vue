@@ -56,7 +56,6 @@ const props = defineProps<{
 
 .profile-card {
     width: 200px;
-    height: 300px;
     background-color: white;
     border-radius: 6px;
     box-shadow: 0px 4px 26px rgba(115, 64, 188, 0.2);

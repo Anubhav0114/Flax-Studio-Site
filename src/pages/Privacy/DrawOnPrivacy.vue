@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import PrivacyLanding from '../components/PrivacyLanding.vue';
+import PrivacyLanding from '../../components/PrivacyLanding.vue';
 
 </script>
 <template>

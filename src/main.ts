@@ -4,10 +4,11 @@ import Main from './Main.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import DrawOnVue from "./pages/DrawOn.vue";
 import WordSearchVue from "./pages/WordSearch.vue";
-import DrawOnPrivacyVue from "./pages/DrawOnPrivacy.vue";
-import WordSearchPrivacyVue from "./pages/WordSearchPrivacy.vue";
+import DrawOnPrivacyVue from "./pages/Privacy/DrawOnPrivacy.vue";
+import WordSearchPrivacyVue from "./pages/Privacy/WordSearchPrivacy.vue";
 import HomeVue from "./pages/Home.vue";
 import NotFoundVue from "./pages/NotFound.vue";
+import ProfileNiteshVue from "./pages/Profiles/ProfileNitesh.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -38,6 +39,12 @@ router.addRoute({
 router.addRoute({
   path: "/word-search/privacy", component: WordSearchPrivacyVue, meta: {
     title: "Word Search - Privacy"
+  }
+})
+
+router.addRoute({
+  path: "/profile-nitesh", component: ProfileNiteshVue, meta: {
+    title: "Profile - Nitesh Kr"
   }
 })
 
