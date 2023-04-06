@@ -56,20 +56,13 @@
             <div class="profile-detail">
                 <div class="profile-about">
                     <h2>About</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged.
+                    <p>As an intermediate Android, game, and web developer, I am constantly honing my skills and expanding my knowledge in the ever-evolving world of digital technology. I have always been fascinated by the ability of technology to connect people and empower them to accomplish incredible things, and that is what motivates me every day.
                     </p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged.
+                    <p>In my journey as a developer, I have gained a solid foundation in developing mobile applications for the Android operating system. I have learned how to build applications that leverage the full potential of the platform, from designing intuitive user interfaces to implementing complex features that enhance user engagement and interactivity.
                     </p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap into electronic typesetting, remaining essentially unchanged.
+                    <p>As a game developer, I have been able to express my creativity and imagination through designing immersive gaming experiences. I enjoy the challenge of crafting compelling gameplay mechanics, creating visually stunning graphics, and incorporating new technologies and trends to make my games stand out.
+                    </p>In addition to my Android and game development skills, I have also developed proficiency in web development. I have learned how to create responsive and user-friendly websites that deliver an exceptional user experience across multiple devices and platforms.
+                    <p>As an intermediate developer, I recognize that there is always room for improvement and growth. I am constantly seeking out new challenges and opportunities to expand my skillset and knowledge base. I am excited to continue on this journey of exploration and discovery, pushing the limits of what I can achieve as a developer and contributing to the digital world in meaningful ways.
                     </p>
 
                     <hr>
