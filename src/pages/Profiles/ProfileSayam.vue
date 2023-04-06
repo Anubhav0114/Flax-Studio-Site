@@ -16,11 +16,11 @@
         <div class="profile-parent">
             <div class="profile-bio">
                 <div class="left">
-                    <img src="nitish.png" alt="nitesh">
+                    <img src="sayam.jpg" alt="sayam">
                     <div>
-                        <h2>Nitesh Kumar</h2>
-                        <p class="info">Full stack web developer</p>
-                        <p class="small-info">Hello myself Nitesh and I am a full stack android developer.</p>
+                        <h2>Sayam Sharma</h2>
+                        <p class="info">Full stack app developer</p>
+                        <p class="small-info">Hello myself Sayam and I am a full stack android developer.</p>
                         <a href="#">Contact</a>
                     </div>
                 </div>
@@ -31,11 +31,11 @@
                     </div>
                     <div class="info">
                         <p>Age:</p>
-                        <p>19</p>
+                        <p>20</p>
                     </div>
                     <div class="info">
                         <p>Location:</p>
-                        <p>India, Bihar</p>
+                        <p>India, Amritsar</p>
                     </div>
                     <div class="info">
                         <p>Experience:</p>
@@ -77,7 +77,9 @@
                     <div class="chip-container">
                         <span>Python</span>
                         <span>Android</span>
-                        <span>Javascript</span>
+                        <span>Java</span>
+                        <span>Kotlin</span>
+                        <span>Go lang</span>
                         <span>Figma</span>
                         <span>C++</span>
                         <span>Kotlin</span>
@@ -92,7 +94,6 @@
 
                 </div>
 
-                
                 <div class="members">
                     <h3>Members</h3>
                     <div>

@@ -9,6 +9,7 @@ import WordSearchPrivacyVue from "./pages/Privacy/WordSearchPrivacy.vue";
 import HomeVue from "./pages/Home.vue";
 import NotFoundVue from "./pages/NotFound.vue";
 import ProfileNiteshVue from "./pages/Profiles/ProfileNitesh.vue";
+import ProfileSayam from './pages/Profiles/ProfileSayam.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -45,6 +46,11 @@ router.addRoute({
 router.addRoute({
   path: "/profile-nitesh", component: ProfileNiteshVue, meta: {
     title: "Profile - Nitesh Kr"
+  }
+})
+router.addRoute({
+  path: "/profile-sayam", component: ProfileSayam, meta: {
+    title: "Profile - Sayam Sn."
   }
 })
 
