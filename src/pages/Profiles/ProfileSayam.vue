@@ -293,6 +293,7 @@ header {
     border-radius: var(--default-border-radius);
     font-size: 18px;
     border: 1px solid rgb(136, 136, 136);
+    cursor: pointer;
     padding: 4px 24px;
 }
 
