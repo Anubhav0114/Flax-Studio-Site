@@ -23,7 +23,7 @@ import './profile.css'
                         <h2>Sayam Sharma</h2>
                         <p class="info">Full stack app developer</p>
                         <p class="small-info">Hello myself Sayam and I am a full stack android developer.</p>
-                        <a href="#">Contact</a>
+                        <a href="mailto:ssayam200@gmail.com">Contact</a>
                     </div>
                 </div>
                 <div class="right">
@@ -44,11 +44,11 @@ import './profile.css'
                         <p>2 years</p>
                     </div>
                     <div class="profile-icons">
-                        <a href="#"><img src="../../assets/extra/github.svg" alt="github"></a>
-                        <a href="#"><img src="../../assets/extra/twitter.svg" alt="twitter"></a>
-                        <a href="#"><img src="../../assets/extra/instagram.svg" alt="instagram"></a>
-                        <a href="#"><img src="../../assets/extra/linkedin.svg" alt="linkedin"></a>
-                        <a href="#"><img src="../../assets/extra/facebook.svg" alt="facebook"></a>
+                        <a href="https://github.com/StartCodeingWithSayam/"><img src="../../assets/extra/github.svg" alt="github"></a>
+                        <!-- <a href="#"><img src="../../assets/extra/twitter.svg" alt="twitter"></a> -->
+                        <a href="https://www.instagram.com/ssayam200/"><img src="../../assets/extra/instagram.svg" alt="instagram"></a>
+                        <a href="https://www.linkedin.com/in/sayamsharma/"><img src="../../assets/extra/linkedin.svg" alt="linkedin"></a>
+                        <!-- <a href="#"><img src="../../assets/extra/facebook.svg" alt="facebook"></a> -->
                     </div>
                 </div>
             </div>

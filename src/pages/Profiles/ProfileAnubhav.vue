@@ -27,7 +27,7 @@ import './profile.css'
                             developer
                             with a deep passion for mobile development. With a keen interest in technology, startups,
                             business, psychology, and Indian polity.</p>
-                        <a href="#">Contact</a>
+                        <a href="mailto:pathakanubhav0127@gmail.com">Contact</a>
                     </div>
                 </div>
                 <div class="right">
