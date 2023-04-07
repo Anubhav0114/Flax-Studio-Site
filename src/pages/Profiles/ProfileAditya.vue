@@ -21,7 +21,7 @@ import './profile.css'
                 <div class="left">
                     <img src="../../assets/profiles/aditya.jpeg" alt="nitesh">
                     <div>
-                        <h2>Aditya Singh</h2>
+                        <h2>Aaditya Singh</h2>
                         <p class="info">Intermediate UI/UX and Web developer</p>
                         <p class="small-info">Hello myself Aaditya and I am a front and devloper and designer</p>
                         <a href="mailto:aadityasingh396@gmail.com">Contact</a>
