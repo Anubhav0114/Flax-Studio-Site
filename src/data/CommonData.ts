@@ -9,8 +9,8 @@ import nitesh from "/src/assets/profiles/nitesh.png"
 
 //------------------------------------------- Released Apps -------------------------------------
 const allApps = Array<AppDetail>()
-allApps.push({ imageUrl: drawOn, pageUrl: "../draw-on", title: "Draw On", description: "A simple drawing app to draw your needs. It will help in showing your art." })
-allApps.push({ imageUrl: wordSearch, pageUrl: "../word-search", title: "Word Search", description: "A simple word search game in which you have to find the words before you ran out of time." })
+allApps.push({ imageUrl: drawOn, pageUrl: "../draw-on", title: "Draw On", description: "An easy to use drawing application. Which allows you to color the canvas with your inner inspiration." })
+allApps.push({ imageUrl: wordSearch, pageUrl: "../word-search", title: "Word Search", description: "Most loving and entertaining Game, which is designed to help you in improving your focusing as well as learning skills." })
 // add more apps here...
 
 export const releasedAppsData: AppsAndGamesData = { heading: "Our Apps & Games", description: "See our apps and games which is available on Play store", apps: allApps }
