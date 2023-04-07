@@ -170,42 +170,6 @@ header {
 }
 
 
-.profile-detail .members {
-    margin-right: 16px;
-    background-color: white;
-    border-radius: var(--default-border-radius);
-    min-height: 200px;
-    height: max-content;
-}
-
-.members>div {
-    padding: 16px;
-    display: grid;
-    grid-template-columns: 40px 1fr;
-    gap: 12px;
-    align-items: center;
-    border-top: 1px solid rgb(233, 233, 233);
-    cursor: pointer;
-
-}
-
-.members img {
-    width: 40px;
-    border-radius: 50%;
-}
-
-.members h3 {
-    margin: 16px;
-}
-
-.members h4 {
-    font-size: 16px;
-}
-
-.members p {
-    font-size: 14px;
-}
-
 
 @media only screen and (max-width: 900px) {
     .profile-bio {

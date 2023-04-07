@@ -1,5 +1,6 @@
 <script setup lang='ts'>
 import { userProfiles } from '../../data/CommonData';
+import ProfileMembers from '../../components/ProfileMembers.vue';
 import './profile.css'
 
 </script>
@@ -86,16 +87,7 @@ import './profile.css'
                 </div>
 
                 
-                <div class="members">
-                    <h3>Members</h3>
-                    <div v-for="(user) in userProfiles">
-                        <img :src="user.imageUrl" :alt="user.name">
-                        <div>
-                            <h4>{{ user.name }}</h4>
-                            <p>{{user.role}}</p>
-                        </div>
-                    </div>
-                </div>
+                <ProfileMembers :user-profiles="userProfiles"/>
             </div>
         </div>
 
