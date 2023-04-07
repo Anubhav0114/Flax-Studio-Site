@@ -5,14 +5,16 @@ import AppFeatures from '../components/AppFeatures.vue';
 import AppsAndGames from '../components/AppsAndGames.vue';
 import AppPrivacyCard from '../components/AppPrivacyCard.vue';
 import { releasedAppsData } from '../data/CommonData';
+import drawOnImage from '../assets/app_images/phone-image.png'
 
 const bigPara = "Draw On is a versatile drawing app that lets you create stunning illustrations and designs with ease. With its intuitive interface and powerful tools, you can draw rectangles, lines, circles, curves, and more with just a few taps and swipes."
+
 
 </script>
 <template>
     <AppLanding :app-name="'Draw On'" :small-para="'A simple & easy drawing app to show your creativity.'"
         :big-para="bigPara" :app-link="'https://play.google.com/store/apps/details?id=com.flaxstudio.drawon'"
-        :app-images-link="'phone-image.png'" :privacy-link="'/draw-on/privacy'" />
+        :app-images-link="drawOnImage" :privacy-link="'/draw-on/privacy'" />
 
     <AboutApp :app-paragraphs="[
         '**Draw On** is a versatile drawing app that lets you create stunning illustrations and designs with ease. With its intuitive interface and powerful tools, you can draw **rectangles, lines, circles, curves**, and more with just a few taps and swipes.',

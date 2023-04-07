@@ -1,9 +1,14 @@
 <script setup lang='ts'>
+import { onMounted } from 'vue';
 import { AppsAndGamesData } from '../DataType'
 
 const props = defineProps<{
     data: AppsAndGamesData
 }>()
+
+onMounted(()=>{
+    console.log(props.data.apps[0].imageUrl,"dsdf")
+})
 
 </script>
 <template>

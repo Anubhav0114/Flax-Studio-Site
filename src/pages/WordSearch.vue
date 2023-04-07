@@ -5,6 +5,7 @@ import AppFeatures from '../components/AppFeatures.vue';
 import AppsAndGames from '../components/AppsAndGames.vue';
 import AppPrivacyCard from '../components/AppPrivacyCard.vue';
 import { releasedAppsData } from '../data/CommonData';
+import wordSearchImage from '../assets/app_images/phone-image.png'
 
 const bigPara = "Looking for a fun and challenging word search puzzle game? Look no further than our app!. With infinite levels to play, you'll never run out of new and exciting challenges to tackle. Simply swipe your finger across the grid of letters to form words and earn points. But watch out - the clock is ticking! Race against time to find as many words as you can before the clock runs out."
 
@@ -13,7 +14,7 @@ const bigPara = "Looking for a fun and challenging word search puzzle game? Look
 <template>
     <AppLanding :app-name="'Word Search: Infinite Puzzle'" :small-para="'A simple word search game in which you have to find the words before you ran out of time.'"
         :big-para="bigPara" :app-link="'https://play.google.com/store/apps/details?id=com.flaxstudio.wordsearch'"
-        :app-images-link="'phone-image.png'" :privacy-link="'/word-search/privacy'" />
+        :app-images-link="wordSearchImage" :privacy-link="'/word-search/privacy'" />
 
     <AboutApp :app-paragraphs="[
         'Looking for a fun and challenging word search puzzle game? Look no further than our app!',

@@ -8,7 +8,6 @@
             <div class="header">
                 <h2><a>Flax Studio</a></h2>
                 <div>
-
                     <a href="./about" class="hide-responsive">About</a>
                     <a href="./join">Join</a>
                 </div>
@@ -24,7 +23,7 @@
                     <a target="_blank" href="https://play.google.com/store/apps/dev?id=7957006414559129964">Visit Playstore</a>
                 </div>
                 <div class="images">
-                    <img src="/phone-image.png" alt="our apps">
+                    <img src="../assets/app_images/phone-image.png" alt="our apps">
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
         <div class="profile-parent">
             <div class="profile-bio">
                 <div class="left">
-                    <img src="../../assets/no_image.png" alt="nitesh">
+                    <img src="../../assets/profiles/anubhav.png" alt="nitesh">
                     <div>
                         <h2>Anubhav Pathak</h2>
                         <p class="info">Intermediate Android developer</p>
@@ -42,11 +42,11 @@
                         <p>6 months</p>
                     </div>
                     <div class="profile-icons">
-                        <a href="#"><img src="../../assets/github.svg" alt="github"></a>
-                        <a href="#"><img src="../../assets/twitter.svg" alt="twitter"></a>
-                        <a href="#"><img src="../../assets/instagram.svg" alt="instagram"></a>
-                        <a href="#"><img src="../../assets/linkedin.svg" alt="linkedin"></a>
-                        <a href="#"><img src="../../assets/facebook.svg" alt="facebook"></a>
+                        <a href="#"><img src="../../assets/extra/github.svg" alt="github"></a>
+                        <a href="#"><img src="../../assets/extra/twitter.svg" alt="twitter"></a>
+                        <a href="#"><img src="../../assets/extra/instagram.svg" alt="instagram"></a>
+                        <a href="#"><img src="../../assets/extra/linkedin.svg" alt="linkedin"></a>
+                        <a href="#"><img src="../../assets/extra/facebook.svg" alt="facebook"></a>
                     </div>
                 </div>
             </div>
@@ -93,21 +93,21 @@ That's why I'm dedicated to creating innovative and user-friendly mobile applica
                 <div class="members">
                     <h3>Members</h3>
                     <div>
-                        <img src="../../assets/no_image.png" alt="no image">
+                        <img src="../../assets/extra/no_image.png" alt="no image">
                         <div>
                             <h4>Nitesh kr</h4>
                             <p>Android developer</p>
                         </div>
                     </div>
                     <div>
-                        <img src="../../assets/no_image.png" alt="no image">
+                        <img src="../../assets/extra/no_image.png" alt="no image">
                         <div>
                             <h4>Nitesh kr</h4>
                             <p>Android developer</p>
                         </div>
                     </div>
                     <div>
-                        <img src="../../assets/no_image.png" alt="no image">
+                        <img src="../../assets/extra/no_image.png" alt="no image">
                         <div>
                             <h4>Nitesh kr</h4>
                             <p>Android developer</p>
