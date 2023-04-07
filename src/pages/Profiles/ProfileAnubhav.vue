@@ -1,4 +1,5 @@
 <script setup lang='ts'>
+import { userProfiles } from '../../data/CommonData';
 import './profile.css'
 </script>
 <template>
@@ -104,28 +105,13 @@ import './profile.css'
 
                 <div class="members">
                     <h3>Members</h3>
-                    <div>
-                        <img src="../../assets/extra/no_image.png" alt="no image">
+                    <div v-for="(user) in userProfiles">
+                        <img :src="user.imageUrl" :alt="user.name">
                         <div>
-                            <h4>Nitesh kr</h4>
-                            <p>Android developer</p>
+                            <h4>{{ user.name }}</h4>
+                            <p>{{user.role}}</p>
                         </div>
                     </div>
-                    <div>
-                        <img src="../../assets/extra/no_image.png" alt="no image">
-                        <div>
-                            <h4>Nitesh kr</h4>
-                            <p>Android developer</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="../../assets/extra/no_image.png" alt="no image">
-                        <div>
-                            <h4>Nitesh kr</h4>
-                            <p>Android developer</p>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>

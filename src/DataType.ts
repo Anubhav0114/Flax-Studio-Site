@@ -15,7 +15,7 @@ export interface ProfileData{
 }
 
 export interface ProfileDetail{
-    imageUrl: string, pageUrl: string, name: string, about: string
+    imageUrl: string, pageUrl: string, name: string, about: string, role: string
 }
 
 
