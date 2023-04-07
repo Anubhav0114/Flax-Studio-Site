@@ -26,7 +26,7 @@ import './profile.css'
                         <p class="small-info">As an intermediate developer, I recognize that there is always room for
                             improvement and growth. I am constantly seeking out new challenges and opportunities to expand
                             my skillset and knowledge base.</p>
-                        <a href="#">Contact</a>
+                        <a href="mailto:niteshdev547@gmail.com">Contact</a>
                     </div>
                 </div>
                 <div class="right">
@@ -113,4 +113,3 @@ import './profile.css'
         </div>
 
     </div></template>
-
