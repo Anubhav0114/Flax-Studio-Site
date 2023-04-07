@@ -1,6 +1,7 @@
 <script setup lang='ts'>
 import ProfileMembers from '../../components/ProfileMembers.vue';
 import { userProfiles } from '../../data/CommonData';
+
 import './profile.css'
 </script>
 <template>
