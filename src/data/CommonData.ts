@@ -9,8 +9,8 @@ import nitesh from "/src/assets/profiles/nitesh.png"
 
 //------------------------------------------- Released Apps -------------------------------------
 const allApps = Array<AppDetail>()
-allApps.push({ imageUrl: drawOn, pageUrl: "../draw-on", title: "Draw On", description: "A simple drawing app to draw your needs. It will help in showing your art." })
-allApps.push({ imageUrl: wordSearch, pageUrl: "../word-search", title: "Word Search", description: "A simple word search game in which you have to find the words before you ran out of time." })
+allApps.push({ imageUrl: drawOn, pageUrl: "../draw-on", title: "Draw On", description: "An easy to use drawing application. Which allows you to color the canvas with your inner inspiration." })
+allApps.push({ imageUrl: wordSearch, pageUrl: "../word-search", title: "Word Search", description: "Most loving and entertaining Game, which is designed to help you in improving your focusing as well as learning skills." })
 // add more apps here...
 
 export const releasedAppsData: AppsAndGamesData = { heading: "Our Apps & Games", description: "See our apps and games which is available on Play store", apps: allApps }
@@ -29,10 +29,10 @@ export const upcomingAppsData: AppsAndGamesData = { heading: "Upcoming Apps & Ga
 
 //----------------------------------------- All Users Profile -----------------------------------
 export const userProfiles = Array<ProfileDetail>()
-userProfiles.push({imageUrl: sayam, pageUrl:"profile-sayam", name:"Sayam Sr", about:" A self-taught Android developer with a passion for building mobile applications. Aspiring to become an a self based brand.", role: "Android developer"})
+userProfiles.push({imageUrl: sayam, pageUrl:"profile-sayam", name:"Sayam Sr", about:"Tech Enthusiast , loves to lead . Passionate to make things more easy with tech. In progress to establish a self made brand.", role: "Android developer"})
 userProfiles.push({imageUrl: nitesh, pageUrl:"profile-nitesh", name:"Nitesh Kr", about:"Hello, i am an intermediate android developer. I am thanking to work here.", role: "Android & Game developer"})
 userProfiles.push({imageUrl: anubhav, pageUrl:"profile-anubhav", name:"Anubhav Jr", about:"A self-taught Android developer with a passion for building mobile applications. Aspiring to become an Engineer.", role: "Android developer"})
 // add more profile here...
 
-export const profileData: ProfileData = {heading:"Developers", description:"We are giving thanks to all our developers who have worked together to make such kind of apps and game.", profiles: userProfiles}
+export const profileData: ProfileData = {heading:"Developers", description:"Hats off for our developers who work together to bring the most incredible and entertaining Apps & Games to your phone.", profiles: userProfiles}
 
