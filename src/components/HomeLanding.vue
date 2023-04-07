@@ -23,7 +23,7 @@
                     <a target="_blank" href="https://play.google.com/store/apps/dev?id=7957006414559129964">Visit Playstore</a>
                 </div>
                 <div class="images">
-                    <img src="../assets/app_images/phone-image.png" alt="our apps">
+                    <img src="../assets/app_images/home/home_image.png" alt="our apps">
                 </div>
             </div>
         </div>
@@ -89,6 +89,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     color: white;
+    align-items: center;
 }
 
 .content h1 {
@@ -126,9 +127,8 @@
 .content img {
     display: block;
     margin: auto;
-    margin-top: 30px;
-    height: 300px;
-
+    height: auto;
+    width: 90%;
 }
 
 
