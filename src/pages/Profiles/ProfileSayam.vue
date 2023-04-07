@@ -10,8 +10,7 @@ import './profile.css'
                 <h2><a href="./">Flax Studio</a></h2>
                 <div>
                     <a href="./">Home</a>
-                    <a href="#features" class="hide-responsive">Features</a>
-                    <a href="#" class="hide-responsive">Privacy</a>
+                    <a href="#about" class="hide-responsive">About</a>
                 </div>
             </div>
         </header>
@@ -58,7 +57,7 @@ import './profile.css'
         <div class="profile-detail-container">
             <div class="profile-detail">
                 <div class="profile-about">
-                    <h2>About</h2>
+                    <h2 id="about">About</h2>
                     <p>My name is Sayam and I am an intermediate Android and web developer. My journey into the world of
                         technology started at a young age, when I received my first computer as a gift from my parents. I
                         was fascinated by the endless possibilities that technology could offer and knew that I wanted to
