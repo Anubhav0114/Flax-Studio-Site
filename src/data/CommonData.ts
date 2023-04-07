@@ -31,10 +31,11 @@ export const upcomingAppsData: AppsAndGamesData = { heading: "Upcoming Apps & Ga
 //----------------------------------------- All Users Profile -----------------------------------
 export const userProfiles = Array<ProfileDetail>()
 userProfiles.push({imageUrl: sayam, pageUrl:"profile-sayam", name:"Sayam Sr", about:"Tech Enthusiast , loves to lead . Passionate to make things more easy with tech. In progress to establish a self made brand.", role: "Android developer"})
-userProfiles.push({imageUrl: nitesh, pageUrl:"profile-nitesh", name:"Nitesh Kr", about:"As an intermediate developer, I strive to create dynamic and innovative applications and games that engage users and meet their needs.", role: "Android, Web & Game developer"})
+userProfiles.push({imageUrl: nitesh, pageUrl:"profile-nitesh", name:"Nitesh Kr ", about:"As an intermediate developer, I strive to create dynamic and innovative applications and games that engage users and meet their needs.", role: "Android, Web & Game developer"})
 userProfiles.push({imageUrl: anubhav, pageUrl:"profile-anubhav", name:"Anubhav Jr", about:"A self-taught Android developer with a passion for building mobile applications. Aspiring to become an Engineer.", role: "Android developer"})
 // add more profile here...
-userProfiles.push({imageUrl: aditya, pageUrl:"profile-aditya", name:"Aditya Dr", about:"Hello myself Aaditya and I am a front and devloper and designer........", role: "UI/UX Web developer"})
+userProfiles.push({imageUrl: aditya, pageUrl:"profile-aditya", name:"Aaditya Dr", about:"Hello myself Aaditya and I am a front and developer and designer........", role: "UI/UX Web developer"})
+userProfiles.push({imageUrl: aditya, pageUrl:"profile-aditya", name:"Aaditya Dr", about:"Hello myself Aaditya and I am a front and developer and designer........", role: "UI/UX Web developer"})
 
 export const profileData: ProfileData = {heading:"Developers", description:"Hats off for our developers who work together to bring the most incredible and entertaining Apps & Games to your phone.", profiles: userProfiles}
 
