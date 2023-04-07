@@ -30,7 +30,7 @@ export const upcomingAppsData: AppsAndGamesData = { heading: "Upcoming Apps & Ga
 //----------------------------------------- All Users Profile -----------------------------------
 export const userProfiles = Array<ProfileDetail>()
 userProfiles.push({imageUrl: sayam, pageUrl:"profile-sayam", name:"Sayam Sr", about:"Tech Enthusiast , loves to lead . Passionate to make things more easy with tech. In progress to establish a self made brand.", role: "Android developer"})
-userProfiles.push({imageUrl: nitesh, pageUrl:"profile-nitesh", name:"Nitesh Kr", about:"Hello, i am an intermediate android developer. I am thanking to work here.", role: "Android & Game developer"})
+userProfiles.push({imageUrl: nitesh, pageUrl:"profile-nitesh", name:"Nitesh Kr", about:"Hello, i am an intermediate android developer. I am thanking to work here.", role: "Android, Web & Game developer"})
 userProfiles.push({imageUrl: anubhav, pageUrl:"profile-anubhav", name:"Anubhav Jr", about:"A self-taught Android developer with a passion for building mobile applications. Aspiring to become an Engineer.", role: "Android developer"})
 // add more profile here...
 
