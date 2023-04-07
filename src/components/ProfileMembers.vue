@@ -40,8 +40,15 @@ defineProps<{
 }
 
 .members a{
+    display: block;
     text-decoration: none;
 }
+
+.members a:hover{
+    background-color: rgba(0, 0, 0, 0.062);
+    
+}
+
 
 .members img {
     width: 40px;
