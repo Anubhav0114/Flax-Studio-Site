@@ -101,6 +101,7 @@ const props = defineProps({
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     color: white;
+    align-items: center;
 }
 
 .content h1 {
@@ -138,9 +139,8 @@ const props = defineProps({
 .content img {
     display: block;
     margin: auto;
-    margin-top: 30px;
-    height: 300px;
-
+    height: auto;
+    width: 90%;
 }
 
 

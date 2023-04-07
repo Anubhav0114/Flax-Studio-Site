@@ -23,7 +23,7 @@
                     <a target="_blank" href="https://play.google.com/store/apps/dev?id=7957006414559129964">Visit Playstore</a>
                 </div>
                 <div class="images">
-                    <img src="../assets/app_images/home/home_image.png" alt="our apps">
+                    <img src="../assets/app_images/home_image.png" alt="our apps">
                 </div>
             </div>
         </div>

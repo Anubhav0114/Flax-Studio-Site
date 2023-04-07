@@ -5,7 +5,7 @@ import AppFeatures from '../components/AppFeatures.vue';
 import AppsAndGames from '../components/AppsAndGames.vue';
 import AppPrivacyCard from '../components/AppPrivacyCard.vue';
 import { releasedAppsData } from '../data/CommonData';
-import wordSearchImage from '../assets/app_images/phone-image.png'
+import wordSearchImage from '../assets/app_images/word_search_image.png'
 
 const bigPara = "Looking for a fun and challenging word search puzzle game? Look no further than our app!. With infinite levels to play, you'll never run out of new and exciting challenges to tackle. Simply swipe your finger across the grid of letters to form words and earn points. But watch out - the clock is ticking! Race against time to find as many words as you can before the clock runs out."
 

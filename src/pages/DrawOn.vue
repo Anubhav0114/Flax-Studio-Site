@@ -5,7 +5,7 @@ import AppFeatures from '../components/AppFeatures.vue';
 import AppsAndGames from '../components/AppsAndGames.vue';
 import AppPrivacyCard from '../components/AppPrivacyCard.vue';
 import { releasedAppsData } from '../data/CommonData';
-import drawOnImage from '../assets/app_images/phone-image.png'
+import drawOnImage from '../assets/app_images/draw_on_image.png'
 
 const bigPara = "Draw On is a versatile drawing app that lets you create stunning illustrations and designs with ease. With its intuitive interface and powerful tools, you can draw rectangles, lines, circles, curves, and more with just a few taps and swipes."
 
@@ -34,4 +34,3 @@ const bigPara = "Draw On is a versatile drawing app that lets you create stunnin
     <AppsAndGames :data="releasedAppsData" />
     <AppPrivacyCard :privacy-link="'./draw-on/privacy'" />
 </template>
-<style scoped></style>
