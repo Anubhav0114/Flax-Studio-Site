@@ -1,5 +1,6 @@
 <script setup lang='ts'>
 import PrivacyLanding from '../../components/PrivacyLanding.vue';
+import './privacy.css'
 
 </script>
 <template>
@@ -107,46 +108,3 @@ import PrivacyLanding from '../../components/PrivacyLanding.vue';
         </p>
     </div>
 </template>
-<style scoped>
-.privacy-content {
-    max-width: var(--max-page-width);
-    margin: auto;
-    padding: 40px var(--page-margin);
-    margin-bottom: 100px;
-}
-
-.privacy-content h2 {
-    color: var(--color-primary-variant);
-    font-weight: 600;
-    font-size: 30px;
-    margin: 30px 0;
-}
-
-.privacy-content h3 {
-    color: var(--color-primary-variant);
-    font-weight: 600;
-    font-size: 22px;
-    margin: 30px 0;
-    margin-top: 60px;
-}
-
-.privacy-content p {
-    color: var(--color-on-secondary);
-    margin: 20px auto;
-}
-
-.privacy-content b {
-    font-weight: 600;
-}
-
-.privacy-content li {
-    color: var(--color-on-secondary);
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-.privacy-content li a {
-    color: var(--color-primary);
-    font-weight: 600;
-}
-</style>
