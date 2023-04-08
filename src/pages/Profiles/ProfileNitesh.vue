@@ -19,7 +19,7 @@ import './profile.css'
         <div class="profile-parent">
             <div class="profile-bio">
                 <div class="left">
-                    <img src="../../assets/profiles/nitesh.png" alt="nitesh">
+                    <img src="../../assets/profiles/nitesh_image.png" alt="nitesh">
                     <div>
                         <h2>Nitesh Kumar</h2>
                         <p class="info">Android & Web developer</p>

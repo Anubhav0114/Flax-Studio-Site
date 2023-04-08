@@ -56,8 +56,8 @@ router.addRoute({
   }
 })
 router.addRoute({
-  path: "/profile-aditya", component: ProfileAdityaVue, meta: {
-    title: "Profile - Aditya Dr."
+  path: "/profile-aaditya", component: ProfileAdityaVue, meta: {
+    title: "Profile - Aaditya Sn."
   }
 })
 

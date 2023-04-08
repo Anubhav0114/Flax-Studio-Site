@@ -19,11 +19,11 @@ import './profile.css'
         <div class="profile-parent">
             <div class="profile-bio">
                 <div class="left">
-                    <img src="../../assets/profiles/aditya.jpeg" alt="nitesh">
+                    <img src="../../assets/profiles/aaditya_image.png" alt="nitesh">
                     <div>
                         <h2>Aaditya Singh</h2>
                         <p class="info">Intermediate UI/UX and Web developer</p>
-                        <p class="small-info">Hello myself Aaditya and I am a front and devloper and designer</p>
+                        <p class="small-info">Hello myself Aaditya and I am front-end web developer and UI/UX designer.</p>
                         <a href="mailto:aadityasingh396@gmail.com">Contact</a>
                     </div>
                 </div>

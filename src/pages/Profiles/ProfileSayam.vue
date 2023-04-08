@@ -18,7 +18,7 @@ import './profile.css'
         <div class="profile-parent">
             <div class="profile-bio">
                 <div class="left">
-                    <img src="../../assets/profiles/sayam.jpg" alt="sayam">
+                    <img src="../../assets/profiles/sayam_image.jpg" alt="sayam">
                     <div>
                         <h2>Sayam Sharma</h2>
                         <p class="info">Full stack app developer</p>
