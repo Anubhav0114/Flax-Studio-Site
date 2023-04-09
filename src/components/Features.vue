@@ -11,17 +11,17 @@
             </div>
             <div class="card reveal">
                 <h3>High Performance</h3>
-                <p>Our Android apps are optimized for high performance,
+                <p>Our Apps are optimized for high performance,
                 utilizing the latest technologies and best practices to ensure that they run smoothly and quickly on a wide range of devices. </p>
             </div>
             <div class="card reveal">
                 <h3>Supports</h3>
-                <p>Our Android apps are supported by a dedicated team of developers and technical experts, 
+                <p>We have a dedicated team of developers and technical experts, 
                 ensuring that any issues or concerns are promptly addressed and resolved. </p>
             </div>
             <div class="card reveal">
                 <h3>Customization</h3>
-                <p>Our Android apps are highly customizable, allowing users to tailor the app to their specific needs and preferences. 
+                <p>We keeps our Apps highly customizable, allowing users to tailor the app to their specific needs and preferences. 
                 With a wide range of customization options, users can make our apps truly their own. </p>
             </div>
         </div>
