@@ -8,7 +8,7 @@
     </div>
 </template>
 <style scoped>
-.not-found{
+.not-found {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,20 +18,20 @@
     background-color: var(--surface-color);
 }
 
-.not-found h1{
+.not-found h1 {
     line-height: 1;
     display: block;
     color: var(--color-primary);
     font-size: 100px;
 }
 
-.not-found p{
+.not-found p {
     margin: 24px 0;
     color: var(--color-on-secondary);
     font-weight: 600;
 }
 
-.not-found a{
+.not-found a {
     border-radius: 4px;
     margin-top: 10px;
     text-decoration: none;
@@ -42,8 +42,13 @@
     transition: opacity 200ms;
 }
 
-.not-found a:hover{
+.not-found a:hover {
     opacity: 0.8;
 }
 
+@media only screen and (max-width: 500px) {
+    .not-found h1 {
+        font-size: 80px;
+    }
+}
 </style>
