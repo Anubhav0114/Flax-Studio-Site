@@ -22,7 +22,7 @@ import './profile.css'
                     <img src="../../assets/profiles/nitesh_image.png" alt="nitesh">
                     <div>
                         <h2>Nitesh Kumar</h2>
-                        <p class="info">Android & Web developer</p>
+                        <p class="info">Android, Web & Game developer</p>
                         <p class="small-info">As an intermediate developer, I recognize that there is always room for
                             improvement and growth. I am constantly seeking out new challenges and opportunities to expand
                             my skillset and knowledge base.</p>
