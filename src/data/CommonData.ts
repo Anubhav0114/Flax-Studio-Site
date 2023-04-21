@@ -20,6 +20,7 @@ export const releasedAppsData: AppsAndGamesData = { heading: "Our Apps & Games",
 
 // ----------------------------------------- Upcoming Apps -------------------------------------
 const upcomingApps = Array<AppDetail>()
+upcomingApps.push({ imageUrl: noImage, pageUrl: "task-planner", title: "Task Planner", description: "A Simple Task Planner app for easily manage your work or your day." })
 upcomingApps.push({ imageUrl: noImage, pageUrl: "music-on", title: "Music On", description: "A Simple music app for managing and playing your audio files." })
 // add more apps here...
 
